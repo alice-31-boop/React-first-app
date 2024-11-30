@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/React-first-app/static/css/main.51fd4b02.css",
+    "main.js": "/React-first-app/static/js/main.8a51e442.js",
+    "static/js/453.b2ccdaa5.chunk.js": "/React-first-app/static/js/453.b2ccdaa5.chunk.js",
+    "static/media/coding-background.mp4": "/React-first-app/static/media/coding-background.22acab75d452957cc30b.mp4",
+    "static/media/go.png": "/React-first-app/static/media/go.21400aad487ce545c210.png",
+    "static/media/html-css.png": "/React-first-app/static/media/html-css.cdc1f36b8d2c464f92c7.png",
+    "static/media/python.png": "/React-first-app/static/media/python.ee2c8992cccd1308d097.png",
+    "static/media/java.png": "/React-first-app/static/media/java.375f91150aebfc2e19ef.png",
+    "index.html": "/React-first-app/index.html",
+    "main.51fd4b02.css.map": "/React-first-app/static/css/main.51fd4b02.css.map",
+    "main.8a51e442.js.map": "/React-first-app/static/js/main.8a51e442.js.map",
+    "453.b2ccdaa5.chunk.js.map": "/React-first-app/static/js/453.b2ccdaa5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.51fd4b02.css",
+    "static/js/main.8a51e442.js"
+  ]
+}
