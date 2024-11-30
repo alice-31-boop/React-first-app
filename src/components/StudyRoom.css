@@ -1,0 +1,137 @@
+/* StudyRoom.css */
+
+/* Video background */
+.video-background video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+/* Content overlay */
+.content-overlay {
+  position: relative;
+  z-index: 1;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Language buttons */
+.language-options {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.language-options button {
+  background-color: #2d5dcc;
+  color: white;
+  border: none;
+  padding: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1em;
+  width: 180px;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+.language-options button:hover {
+  background-color: #ffcc00;
+}
+
+.language-options img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.language-options button span {
+  vertical-align: middle;
+}
+
+/* StudyRoom.css */
+
+/* Links section */
+.links-section {
+  margin-top: 30px;
+}
+
+.links-section ul {
+  text-align: center; /* Aligning the list to the center */
+  padding: 0;
+  list-style-type: none; /* Remove bullet points */
+  display: flex; /* Use flexbox to align items */
+  justify-content: center; /* Center the links */
+  flex-direction: column; /* Stack the links vertically */
+  gap: 15px; /* Space between links */
+}
+
+.links-section li {
+  display: inline-block; /* Align each link like a block element */
+}
+
+.links-section a {
+  color: #ffcc00;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.links-section a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .content-overlay h1 {
+    font-size: 1.8em;
+  }
+
+  .content-overlay p {
+    font-size: 1.2em;
+  }
+
+  .language-options button {
+    width: 150px;
+    padding: 12px;
+  }
+
+  .language-options img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .links-section ul {
+    padding-left: 20px;
+  }
+
+  .links-section {
+    margin-top: 5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .content-overlay h1 {
+    font-size: 1.5em;
+  }
+
+  .content-overlay p {
+    font-size: 1em;
+  }
+
+  .language-options button {
+    width: 100%;
+    padding: 12px;
+  }
+
+  .language-options img {
+    width: 20px;
+    height: 20px;
+  }
+}

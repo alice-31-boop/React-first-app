@@ -1,0 +1,33 @@
+/* Footer.css */
+
+.footer {
+    background-color: #efd9ca;
+    color: #2d5dcc;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 1rem;
+    box-sizing: border-box;
+  }
+
+  
+  /* Footer styles for responsiveness */
+  .footer p {
+    margin: 0;
+  }
+  
+  /* Responsive styles for smaller devices */
+  @media (max-width: 768px) {
+    .footer {
+      font-size: 0.9rem;
+      padding: 15px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .footer {
+      font-size: 0.8rem;
+      padding: 20px;
+    }
+  }
+  

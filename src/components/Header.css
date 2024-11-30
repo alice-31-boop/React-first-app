@@ -1,0 +1,62 @@
+/* Header.css */
+
+/* Basic header styles */
+.header {
+    background-color: #2d5dcc; /* Change as needed */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Title style */
+  .header-title {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  /* Navigation styles */
+  .nav {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
+  
+  .nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .nav-item {
+    margin: 0 15px;
+  }
+  
+  .nav-item a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-item a:hover {
+    color: #ffcc00;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .nav {
+      flex-direction: column;
+    }
+  
+    .nav-item {
+      margin: 10px 0;
+    }
+  
+    .header-title {
+      font-size: 1.5em;
+    }
+  }
+  
